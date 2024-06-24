@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<script src="libs/gsap/gsap.min.js" defer></script>
+
+	<script src="libs/swiper/swiper-bundle.min.js" defer></script>
+	<link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css">
+
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/app_main.js" defer></script>
+
+</head>
+<body>
+
+	<div class="top-line">
+		<div class="container container-top">
+			<div>
+				<div class="logo">
+					<img src="img/logo.svg" alt="Alt">
+				</div>
+			</div>
+			<div>
+				<ul class="main-mnu">
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="about.html">О выставке</a></li>
+					<li><a href="gallery.html">Фотогалерея</a></li>
+					<li><a href="contact.html">Билеты</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	
+	<div class="swiper slider">
+
+		<div class="swiper-wrapper">
+
+			<div class="swiper-slide slide">
+				<div class="slide_content">
+					<h2>Дали & пикассо</h2>
+					<p>Выставка подлинных работ</p>
+					<button id="gButton">галерея</button>
+				</div>
+			</div>
+			<div class="swiper-slide slide">
+				<div class="slide_content">
+					<h2>О выставке</h2>
+					<p>Погрузитесь в мир выдающихся художников</p>
+					<button id="aboutButton">Читать</button>
+				</div>
+			</div>
+			<div class="swiper-slide slide">
+				<div class="slide_content">
+					<h2>Фотогалерея</h2>
+					<p>Работы великих художников </p>
+					<button id="galleryButton">Смотреть</button>
+				</div>
+			</div>
+			<div class="swiper-slide slide">
+				<div class="slide_content">
+					<h2>Билеты</h2>
+					<p>Посетите выставку по лучшим ценам</p>
+					<button id="contactButton">Купить</button>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="slider-bottom">
+			<div class="slider-pagination">
+				<div class="swiper-pagination"></div>
+			</div>
+			<div class="slider-navigation">
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+			</div>
+		</div>
+
+	</div>
+
+	<video src="media/background60.mp4" class="video-background" muted></video>
+
+</body>
+</html>
