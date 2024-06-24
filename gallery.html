@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<script src="libs/gsap/gsap.min1.js" defer></script>
+	<script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+	<script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/app_gallery.js" defer></script>
+
+</head>
+<body>
+	
+	<div class="top-line">
+		<div class="container container-top">
+			<div>
+				<div class="logo">
+					<img src="img/logo.svg" alt="Alt">
+				</div>
+			</div>
+			<div>
+				<ul class="main-mnu">
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="about.html">О выставке</a></li>
+					<li><a href="gallery.html">Фотогалерея</a></li>
+					<li><a href="contact.html">Билеты</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="wrapper">
+		<div class="content">
+			<header class="hero-section">
+				<img data-speed=".6" class="hero" src="img/hero.png" alt="Alt">
+				<div class="container">
+					<div data-speed=".75" class="main-header">
+						<h1 class="main-title">фотогалерея работ</h1>
+					</div>
+				</div>
+			</header>
+		
+			<div class="portfolio">
+				<div class="container">
+					<main class="gallery">
+						<div data-speed=".9" class="gallery-left">
+							
+							<img class="gallery__item" src="/img/4.png" alt="Alt">
+							<img class="gallery__item" src="/img/6.png" alt="Alt">
+		
+							<div class="text-block gallery__item">
+								<h3 class="text-block__h">Более 260 произведений</h3>
+								<p class="text-block__p">Столько работ представлено на выставке. Здесь и скульптура, и керамика, и графика</p>
+							</div>
+		
+							<img class="gallery__item" src="/img/5.png" alt="Alt">
+		
+						</div>
+						<div data-speed="1.1" class="gallery-right">
+		
+							<div class="text-block gallery__item">
+								<h3 class="text-block__h">Подлинные работы</h3>
+								<p class="text-block__p">Ведущие специалисты музеев Дали и Пикассо <br> выступали экспертами при оценке коллекции</p>
+							</div>
+						
+							<img class="gallery__item" src="/img/1.png" alt="Alt">
+							<img class="gallery__item" src="/img/3.png" alt="Alt">
+							<img class="gallery__item" src="/img/2.png" alt="Alt">
+		
+						</div>
+					</main>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
